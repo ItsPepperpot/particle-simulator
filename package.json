@@ -1,7 +1,7 @@
 {
-  "name": "canvas-thingy",
+  "name": "particle-simulator",
   "version": "1.0.0",
-  "description": "A canvas thingy.",
+  "description": "An HTML5 particle simulator.",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
