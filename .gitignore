@@ -1,0 +1,11 @@
+#Visual Studio Code
+/.vscode
+
+#directories
+bower_components
+node_modules
+dist
+
+#files
+*.tgz
+*.log

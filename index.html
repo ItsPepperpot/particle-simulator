@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#ff9090">
+    <title>Canvas Thingy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="settings">
+        <h3>Settings</h3>
+        <p>fps = <span id="fps">0</span></p>
+        <button id="reload" onclick="reload();" class="high-importance">Reload (r)</button>
+    </div>
+    <canvas id="display"></canvas>
+    <canvas id="tracers"></canvas>
+    <script src="sim.js"></script>
+</body>
+
+</html>
